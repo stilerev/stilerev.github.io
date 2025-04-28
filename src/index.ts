@@ -95,7 +95,7 @@ function readChatbox() {
 }
 
 function updateUI(action: string) {
-	document.getElementById("action").innerText = action;
+	document.getElementById("text").innerText = action;
 }
 
 function getActionRequired(text: string) {
