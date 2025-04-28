@@ -29,8 +29,6 @@ interface Attack {
 	action: string;
 }
 
-let currentAttack = 0;
-
 const messages: { [key: string]: Attack } = {
 	"burn": {
 		message: ["Burn!"],
